@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/lime.css" />
+</head>
+
+<body>
+    <div id="container">
+        <nav>
+            <h1 class="logo">hoang</h1>
+        </nav>
+
+        <p>
+            My name is Phan Huy Hoang, and I'm delighted to introduce myself to you. I'm a dedicated backend programmer
+            with a passion for crafting robust and efficient digital solutions. Over the years, I have honed my skills
+            in developing the intricate workings that power various applications and websites.
+        </p>
+        <button class="button-1" id="button-theme">I</button>
+        <button class="button-2" id="button-theme">am</button>
+        <button class="button-3" id="button-theme1">phh235</button>
+    </div>
+    <label class="switch">
+        <input type="checkbox" id="myToggler" onclick="changeColor()" />
+        <span class="slider round"></span>
+    </label>
+    <i class="bi bi-brightness-high-fill" id="toggleDark"></i>
+    <script>
+        const body = document.querySelector("body");
+        const p = document.querySelector("p");
+        const logo = document.querySelector(".logo");
+        const button = document.querySelector(".button-1");
+        const button2 = document.querySelector(".button-2");
+        const button3 = document.querySelector(".button-3");
+        function changeColor() {
+            if (body.style.backgroundColor == "rgb(184, 167, 170)") {
+                body.style.backgroundColor = "rgb(124, 135, 142)";
+                body.style.transition = ".5s";
+                p.style.color = "#4b5257";
+                p.style.transition = ".5s";
+                logo.style.color = "#93c247";
+                logo.style.transition = ".5s";
+                button.style.backgroundColor = "rgb(115, 125, 130)";
+                button.style.color = "#bfcfdc";
+                button.style.transition = ".5s";
+                button2.style.backgroundColor = "rgb(115, 125, 130)";
+                button2.style.color = "#bfcfdc";
+                button2.style.transition = ".5s";
+                button3.style.backgroundColor = "#93c247";
+                button3.style.color = "#7c878e";
+                button3.style.transition = ".5s";
+            } else {
+                body.style.backgroundColor = "rgb(184, 167, 170)";
+                body.style.transition = ".5s";
+                p.style.color = "#48373d";
+                p.style.transition = ".5s";
+                logo.style.color = "#83616e";
+                logo.style.transition = ".5s";
+                button.style.backgroundColor = "rgb(171, 152, 158)";
+                button.style.color = "#ebe6ea";
+                button.style.transition = ".5s";
+                button2.style.backgroundColor = "rgb(171, 152, 158)";
+                button2.style.color = "#ebe6ea";
+                button2.style.transition = ".5s";
+                button3.style.backgroundColor = "#83616e";
+                button3.style.color = "#b8a7aa";
+                button3.style.transition = ".5s";
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend Deca";
+}
+
+#container {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+}
+
+body {
+  background-color: #b8a7aa;
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  padding: 0;
+}
+button {
+    margin-bottom:10px;
+}
+.button-1 {
+  width: 300px;
+  padding: 6px;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #ab989e;
+  color: #ebe6ea;
+  transition: all 0.3s;
+  font-size: 20px;
+  align-content: center;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.button-2 {
+  width: 300px;
+  padding: 6px;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #ab989e;
+  color: #ebe6ea;
+  transition: all 0.3s;
+  font-size: 20px;
+  align-content: center;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+}
+.button-3 {
+  width: 300px;
+  padding: 6px;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #83616e;
+  color: #b8a7aa;
+  transition: all 0.3s;
+  font-size: 20px;
+  align-content: center;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.button-1:hover,
+.button-2:hover,
+.button-3:hover {
+  background-color: #ebe6ea;
+  color: #ab989e;
+}
+
+p {
+  font-size: 25px;
+  margin-bottom: 30px;
+  color: #48373d;
+}
+@media screen and (max-width: 768px) {
+  p {
+    margin-bottom: 50px;
+  }
+  .button-1,
+  .button-2,
+  .button-3 {
+    position: relative;
+  }
+}
+.logo {
+  color: #83616e;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+nav {
+  height: 100px;
+}
